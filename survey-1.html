@@ -10,6 +10,123 @@
 <body>
     <h1>Survey Page 1</h1>
 
+    <form> 
+        <fieldset>
+            <legend> Contact information</legend>
+            <div>
+            <label for="fname"> <sup>*</sup> First name:
+                <input id="fname" type="text" autofocus required>
+            </label>
+            </div>
+            <div>
+            <label for="lname"> <sup>*</sup> Last name:
+                <input id="lname" type="text" required>
+            </label>
+            <div>
+            <label for="phone"> Phone number:
+                <input id="phone" type="tel" autofocus placeholder="(123) 465 -7890">
+            </label>
+            </div>
+            </div>
+            <label for="email"> <sup>*</sup> Email address:
+                <input id="email" type="email" required>
+            </label>
+
+        </fieldset>
+
+        <div>
+
+         <label for="female"> How do you identify?
+            <input type="checkbox" id="female" name="gender" value="female"> Female 
+         </label>
+        
+         <label for="male">
+            <input type="checkbox" id="male" name="gender" value="male"> Male
+         </label>
+        
+        <label for="non-binary">
+            <input type="checkbox" id="non-binary" name="gender" value="non-binary">Non-binary
+        </label>  
+        
+        <label for="prefer not to answer">
+            <input type="checkbox" id="prefer not to answer" name="gender" value="prefer not to answer">Prefer Not to Answer
+        </label> 
+        
+        </div>
+
+        <div>
+            <label for="color">What's your favorite color:</label>
+
+            <select name="color" id="color">
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="other">Other</option>
+            </select>
+
+        </div>
+
+        <div>
+
+            <fieldset>
+                <legend> Choose your year in school </legend>
+                  <label for="freshman">
+                    <input type="checkbox" id="freshman" name="year" value ="freshman"> Freshman
+                  </label>    
+              
+                  <label for="sophmore">
+                    <input type="checkbox" id="sophmore" name="year" value="sophmore"> Sophmore
+                  </label>
+              
+                  <label for="junior">
+                    <input type="checkbox" id="junior" name="year" value="junior"> Junior
+                  </label>
+
+                  <label for="senior">
+                    <input type="checkbox" id="senior" name="year" value="senior"> Senior
+                  </label>
+
+                  <label for="graduated">
+                    <input type="checkbox" id="graduated" name="year" value="graduated"> Graduated
+                  </label>
+
+                  <label for="did not attend">
+                    <input type="checkbox" id="did not attend" name="year" value="did not attend"> Did not attend
+                  </label>
+            </fieldset> 
+
+        </div>
+
+        <div>
+            <legend> Do you have any pets? </legend>
+            <label for="yes">
+                <input type="radio" id="yes" name="pets" value="yes"> Yes
+            </label>
+            
+            <label for="no">
+                <input type="radio" id="no" name="pets" value="no"> No
+            </label>
+        </div>
+
+        <div>
+            <label for="house">Which Hogwarts house would you be in?:</label>
+
+            <select name="house" id="house">
+                <option value="ravenclaw">Ravenclaw</option>
+                <option value="hufflepuff">Hufflepuff</option>
+                <option value="gryffindor">Gryffindor</option>
+                <option value="slytherin">Slytherin</option>
+            </select>
+
+
+        </div>
+
+    </form>
+
+
   <p>
         <button onclick="window.location.href='./survey-2.html';">
             Next page
