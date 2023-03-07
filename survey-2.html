@@ -10,6 +10,96 @@
 <body>
     <h1>Survey Page 2</h1>
 
+    <form>
+        <div>
+
+            <fieldset>
+                <legend> Which Continent are you from? </legend>
+                  <label for="north america">
+                    <input type="checkbox" id="north america" name="continent" value ="north america"> North America
+                  </label>    
+              
+                  <label for="south america">
+                    <input type="checkbox" id="south america" name="continent" value="south america"> South America
+                  </label>
+              
+                  <label for="europe">
+                    <input type="checkbox" id="europe" name="continent" value="europe"> Europe
+                  </label>
+
+                  <label for="africa">
+                    <input type="checkbox" id="africa" name="continent" value="africa"> Africa
+                  </label>
+
+                  <label for="asia">
+                    <input type="checkbox" id="asia" name="continent" value="asia"> Asia
+                  </label>
+
+                  <label for="oceania">
+                    <input type="checkbox" id="oceania" name="continent" value="oceania"> Oceania
+                  </label>
+
+                  <label for="antartica">
+                    <input type="checkbox" id="antartica" name="continent" value="antartica"> Antartica
+                  </label>
+            </fieldset>
+        </div> 
+
+        <div>
+            <legend> What's your favorite social media app? </legend>
+                <label for="snapchat">
+                    <input type="radio" id="snapchat" name="app" value="snapchat"> Snapchat
+                </label>
+                
+                <label for="instagram">
+                    <input type="radio" id="instagram" name="app" value="instagram"> Instagram
+                </label>
+
+                <label for="twitter">
+                    <input type="radio" id="twitter" name="app" value="twitter"> Twitter
+                </label>
+
+                <label for="facebook">
+                    <input type="radio" id="facebook" name="app" value="facebook"> Facebook
+                </label>
+
+                <label for="bereal">
+                    <input type="radio" id="bereal" name="app" value="bereal"> BeReal
+                </label>
+        </div>
+
+        <div>
+            <label for="age">How old are you?:</label>
+
+            <select name="age" id="age">
+                <option value="under 18>">Under 18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+                <option value="46-55">46-55</option>
+                <option value="56-65">56-65</option>
+                <option value="over 65">Over 65</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="movie"> Favorite Movie:
+                <input id="movie" type="text">
+            </label>
+        </div>
+
+        <div>
+            <label for="team"> Favorite Sports Team:
+                    <input id="team" type="text">
+            </label>
+        </div>
+
+
+
+
+
+    </form>
+
   <p>
         <button onclick="window.location.href='./thank-you.html';">
             Submit survey
