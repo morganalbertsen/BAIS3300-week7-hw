@@ -1,5 +1,12 @@
 body{background-color: whitesmoke;
-     font-family: "Source Code Pro";
     }
 
 sup{color: red;}
+
+div{margin-bottom: 20px;}
+
+legend{font-size: 20px;}
+
+label{font-size: 18.5px;}
+
+option{font-size: 18.5px;}

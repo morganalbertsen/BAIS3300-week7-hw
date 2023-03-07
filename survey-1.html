@@ -17,20 +17,26 @@
             <label for="fname"> <sup>*</sup> First name:
                 <input id="fname" type="text" autofocus required>
             </label>
+            <button type="submit" value="Submit">Submit</button>
             </div>
             <div>
             <label for="lname"> <sup>*</sup> Last name:
                 <input id="lname" type="text" required>
             </label>
+            <button type="submit" value="Submit">Submit</button>
+            </div>
             <div>
             <label for="phone"> Phone number:
-                <input id="phone" type="tel" autofocus placeholder="(123) 465 -7890">
+                <input id="phone" type="tel" placeholder="(123) 465 -7890">
             </label>
+            <button type="submit" value="Submit">Submit</button>
             </div>
-            </div>
+            <div>
             <label for="email"> <sup>*</sup> Email address:
                 <input id="email" type="email" required>
             </label>
+            <button type="submit" value="Submit">Submit</button>
+            </div>
 
         </fieldset>
 
@@ -48,10 +54,9 @@
             <input type="checkbox" id="non-binary" name="gender" value="non-binary">Non-binary
         </label>  
         
-        <label for="prefer not to answer">
-            <input type="checkbox" id="prefer not to answer" name="gender" value="prefer not to answer">Prefer Not to Answer
+        <label for="prefer-not-to-answer">
+            <input type="checkbox" id="prefer-not-to-answer" name="gender" value="prefer-not-to-answer">Prefer Not to Answer
         </label> 
-        
         </div>
 
         <div>
@@ -93,14 +98,15 @@
                     <input type="checkbox" id="graduated" name="year" value="graduated"> Graduated
                   </label>
 
-                  <label for="did not attend">
-                    <input type="checkbox" id="did not attend" name="year" value="did not attend"> Did not attend
+                  <label for="did-not-attend">
+                    <input type="checkbox" id="did-not-attend" name="year" value="did-not-attend"> Did not attend
                   </label>
             </fieldset> 
 
         </div>
 
         <div>
+            <fieldset>
             <legend> Do you have any pets? </legend>
             <label for="yes">
                 <input type="radio" id="yes" name="pets" value="yes"> Yes
@@ -109,6 +115,7 @@
             <label for="no">
                 <input type="radio" id="no" name="pets" value="no"> No
             </label>
+        </fieldset>
         </div>
 
         <div>
